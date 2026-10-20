@@ -1,0 +1,10 @@
+build/
+*.mp4
+*.mov
+*.srt
+caps.json
+.DS_Store
+__pycache__/
+brand/fonts/*.ttf
+brand/fonts/*.otf
+!brand/fonts/.gitkeep
