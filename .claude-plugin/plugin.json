@@ -1,0 +1,15 @@
+{
+  "name": "ismail-reels",
+  "version": "1.0.0",
+  "description": "استوديو إنتاج ريلز إنستغرام احترافية في المحاسبة والتحليل المالي بهوية إسماعيل كبول القابلة للتخصيص (ألوان، خطوط، شعار، مقدمة/نهاية، دعوة). يعمل بمسار خفيف مستقل، ويتوسّع عبر محرّك الرسم للموشن قرافيكس المتقدم.",
+  "author": {
+    "name": "Ismail Kabboul",
+    "url": "https://github.com/ismailkb551"
+  },
+  "homepage": "https://github.com/ismailkb551/ismail-reel-studio",
+  "repository": "https://github.com/ismailkb551/ismail-reel-studio",
+  "license": "MIT",
+  "skills": [
+    "./skills/ismail-reels"
+  ]
+}
