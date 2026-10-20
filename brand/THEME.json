@@ -1,0 +1,105 @@
+{
+  "_ملاحظة": "هذا هو الملف الوحيد الذي تملأه بهويتك. غيّر القيم التالية بألوانك وخطوطك وشعارك. كل الريلات ستُنتج بهذه الهوية تلقائياً. بعد أي تعديل شغّل: python3 scripts/apply_theme.py brand/THEME.json",
+
+  "page": {
+    "name": "إسماعيل كبول",
+    "handle": "@ismail.accountant",
+    "website": "accountingmasters.academy",
+    "booking": "accountingmasters.academy/booking",
+    "credentials": "خبير مالي معتمد · FMVA · BIDA · CertIFR"
+  },
+
+  "colors": {
+    "_تعليق": "استخدم أكواد HEX. primary = اللون الأساسي للهوية، accent = لون التمييز للأرقام والكلمات الساخنة.",
+    "primary": "#1F3864",
+    "accent": "#E8B23A",
+    "caption_text": "#FFFFFF",
+    "caption_bg": "#1F3864",
+    "hot_word": "#E8B23A",
+    "danger": "#C00000",
+    "success": "#2E7D32",
+    "surface": "#F2F4F8"
+  },
+
+  "fonts": {
+    "_تعليق": "اسم الخط كما هو مثبّت على جهازك أو في brand/fonts/. caption للكابشن، heading للعناوين الكبيرة. خطوط عربية مقترحة مجانية: Tajawal, Cairo, IBM Plex Sans Arabic.",
+    "caption": "Tajawal",
+    "caption_weight": "800",
+    "heading": "Cairo",
+    "number": "Cairo",
+    "files": {
+      "_تعليق": "ضع ملفات .ttf/.otf في brand/fonts/ واكتب أسماءها هنا، أو اتركها فارغة لتنزيلها من Google Fonts.",
+      "Tajawal": "",
+      "Cairo": ""
+    }
+  },
+
+  "logo": {
+    "_تعليق": "ضع الشعار في brand/logo/ (PNG شفاف يفضّل). يُدرج أعلى وسط الريل وفي كرت النهاية.",
+    "file": "",
+    "placement": "top-center",
+    "opacity": 0.9
+  },
+
+  "caption": {
+    "_تعليق": "مظهر الكابشن المحروق على الفيديو.",
+    "style": "box",
+    "position_y": 1460,
+    "max_chars_per_line": 22,
+    "corner_radius": 18,
+    "uppercase": false,
+    "progress_bar": true,
+    "progress_bar_y": 1492
+  },
+
+  "intro": {
+    "_تعليق": "كرت البداية (1.5 ثانية). اتركه enabled=false لو ما تبي مقدمة.",
+    "enabled": true,
+    "duration": 1.5,
+    "text": "إسماعيل كبول — المالية ببساطة",
+    "bg": "#1F3864",
+    "fg": "#FFFFFF"
+  },
+
+  "outro": {
+    "_تعليق": "كرت النهاية مع الدعوة. يظهر آخر 3 ثوانٍ.",
+    "enabled": true,
+    "duration": 3.0,
+    "headline": "احجز جلسة تشخيص مجانية 15 دقيقة",
+    "subline": "accountingmasters.academy/booking",
+    "handle": "@ismail.accountant",
+    "bg": "#1F3864",
+    "fg": "#FFFFFF",
+    "accent": "#E8B23A"
+  },
+
+  "cta_lowerthird": {
+    "_تعليق": "شريط سفلي صغير يظهر عند الدعوة داخل الريل (مثلاً عند محطة الإغلاق).",
+    "enabled": true,
+    "text": "اكتب كلمة المنشور بالتعليقات ↓",
+    "bg": "#E8B23A",
+    "fg": "#1F3864"
+  },
+
+  "safe_zones": {
+    "_تعليق": "مناطق واجهة إنستغرام التي يجب ألا يقع فيها نص مهم. القيم بالبكسل على إطار 1080×1920.",
+    "top": 220,
+    "bottom": 360,
+    "right": 120,
+    "left": 60
+  },
+
+  "audio": {
+    "_تعليق": "معايرة الصوت. target_lufs القياسي للسوشال -14.",
+    "target_lufs": -14,
+    "music_enabled": true,
+    "music_gain_db": -22
+  },
+
+  "render": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "grade": "auto"
+  }
+}
