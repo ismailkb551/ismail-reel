@@ -1,6 +1,5 @@
 {
   "_ملاحظة": "هذا هو الملف الوحيد الذي تملأه بهويتك. غيّر القيم التالية بألوانك وخطوطك وشعارك. كل الريلات ستُنتج بهذه الهوية تلقائياً. بعد أي تعديل شغّل: python3 scripts/apply_theme.py brand/THEME.json",
-
   "page": {
     "name": "إسماعيل كبول",
     "handle": "@ismail.accountant",
@@ -8,7 +7,6 @@
     "booking": "accountingmasters.academy/booking",
     "credentials": "خبير مالي معتمد · FMVA · BIDA · CertIFR"
   },
-
   "colors": {
     "_تعليق": "استخدم أكواد HEX. primary = اللون الأساسي للهوية، accent = لون التمييز للأرقام والكلمات الساخنة.",
     "primary": "#1F3864",
@@ -20,27 +18,23 @@
     "success": "#2E7D32",
     "surface": "#F2F4F8"
   },
-
   "fonts": {
     "_تعليق": "اسم الخط كما هو مثبّت على جهازك أو في brand/fonts/. caption للكابشن، heading للعناوين الكبيرة. خطوط عربية مقترحة مجانية: Tajawal, Cairo, IBM Plex Sans Arabic.",
-    "caption": "Tajawal",
+    "caption": "29LT Zarid Display",
     "caption_weight": "800",
-    "heading": "Cairo",
-    "number": "Cairo",
+    "heading": "29LT Zarid Display",
+    "number": "29LT Zarid Display",
     "files": {
-      "_تعليق": "ضع ملفات .ttf/.otf في brand/fonts/ واكتب أسماءها هنا، أو اتركها فارغة لتنزيلها من Google Fonts.",
-      "Tajawal": "",
-      "Cairo": ""
+      "_تعليق": "29LT Zarid Display خط تجاري من مؤسسة 29LT؛ ثبّته على جهازك. لتضمينه في الرسم ضع ملف .otf/.ttf في brand/fonts/ واكتب اسمه هنا.",
+      "29LT Zarid Display": ""
     }
   },
-
   "logo": {
     "_تعليق": "ضع الشعار في brand/logo/ (PNG شفاف يفضّل). يُدرج أعلى وسط الريل وفي كرت النهاية.",
     "file": "",
     "placement": "top-center",
     "opacity": 0.9
   },
-
   "caption": {
     "_تعليق": "مظهر الكابشن المحروق على الفيديو.",
     "style": "box",
@@ -51,7 +45,6 @@
     "progress_bar": true,
     "progress_bar_y": 1492
   },
-
   "intro": {
     "_تعليق": "كرت البداية (1.5 ثانية). اتركه enabled=false لو ما تبي مقدمة.",
     "enabled": true,
@@ -60,7 +53,6 @@
     "bg": "#1F3864",
     "fg": "#FFFFFF"
   },
-
   "outro": {
     "_تعليق": "كرت النهاية مع الدعوة. يظهر آخر 3 ثوانٍ.",
     "enabled": true,
@@ -72,7 +64,6 @@
     "fg": "#FFFFFF",
     "accent": "#E8B23A"
   },
-
   "cta_lowerthird": {
     "_تعليق": "شريط سفلي صغير يظهر عند الدعوة داخل الريل (مثلاً عند محطة الإغلاق).",
     "enabled": true,
@@ -80,7 +71,6 @@
     "bg": "#E8B23A",
     "fg": "#1F3864"
   },
-
   "safe_zones": {
     "_تعليق": "مناطق واجهة إنستغرام التي يجب ألا يقع فيها نص مهم. القيم بالبكسل على إطار 1080×1920.",
     "top": 220,
@@ -88,14 +78,12 @@
     "right": 120,
     "left": 60
   },
-
   "audio": {
     "_تعليق": "معايرة الصوت. target_lufs القياسي للسوشال -14.",
     "target_lufs": -14,
     "music_enabled": true,
     "music_gain_db": -22
   },
-
   "render": {
     "width": 1080,
     "height": 1920,
